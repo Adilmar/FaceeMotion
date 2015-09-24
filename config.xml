@@ -34,19 +34,11 @@
 	<gap:plugin name="org.apache.cordova.file" />
 	<gap:plugin name="org.apache.cordova.geolocation" />
 	<gap:plugin name="org.apache.cordova.globalization" />
-	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" /> 
+	<gap:plugin name="org.apache.cordova.inappbrowser.InAppBrowser"/> 
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.vibration" />
-	
-	<!-- android -->
-    <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="InAppBrowser"> 
-<param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
-</feature
-	
 	
 	 <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
