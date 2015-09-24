@@ -24,8 +24,9 @@
 	 <!-- Core plugins -->
 	
 	
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	
+
 	
 	 <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
