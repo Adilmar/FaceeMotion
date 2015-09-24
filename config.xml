@@ -34,7 +34,7 @@
 	<gap:plugin name="org.apache.cordova.file" />
 	<gap:plugin name="org.apache.cordova.geolocation" />
 	<gap:plugin name="org.apache.cordova.globalization" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" /> 
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
@@ -42,13 +42,13 @@
 	
 	 <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <icon src="icon.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="icon.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icon.png"  gap:platform="android"    gap:density="ldpi" />
+    <icon src="icon.png"  gap:platform="android"    gap:density="mdpi" />
     <icon src="icon.png"  gap:platform="android"    gap:density="hdpi" />
     <icon src="icon.png"  gap:platform="android"    gap:density="xhdpi" />
-    <icon src="icon.png"         gap:platform="webos" />
+    <icon src="icon.png"  gap:platform="webos" />
     <icon src="icon.png"  gap:platform="winphone" />
-    <icon src="icon.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="icon.png"  gap:platform="winphone"   gap:role="background" />
 	
 		 <!-- SPLASH SCREENS -->
 <gap:splash src="images/splash.jpg" /> <!-- default 320x480 pixels -->
