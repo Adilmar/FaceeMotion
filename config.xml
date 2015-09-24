@@ -12,7 +12,7 @@
 	
 
     <description>
-       Aplicativo com técnicas de inteligência artificial capaz de detectar as emoções através das expressões faciais.
+      Aplicativo com técnicas de inteligência artificial capaz de detectar as emoções através das expressões faciais
     </description>
 
     <author href="https://facebook.com/adilmarcoelho" email="adilmarcoelho@hotmail.com">
@@ -22,7 +22,7 @@
 	<preference name="stay-in-webview" value="true" /> 
 
 	 <!-- Core plugins -->
-	
+	<gap:plugin name="org.apache.cordova.battery-status" />
 	<gap:plugin name="org.apache.cordova.camera" />
 	<gap:plugin name="org.apache.cordova.media-capture" />
 	<gap:plugin name="org.apache.cordova.console" />
@@ -34,7 +34,7 @@
 	<gap:plugin name="org.apache.cordova.file" />
 	<gap:plugin name="org.apache.cordova.geolocation" />
 	<gap:plugin name="org.apache.cordova.globalization" />
-	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/> 
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
@@ -51,11 +51,11 @@
     <icon src="icon.png" gap:platform="winphone"   gap:role="background" />
 	
 		 <!-- SPLASH SCREENS -->
-	<gap:splash src="images/splash.jpg" /> <!-- default 320x480 pixels -->
-	<gap:splash src="images/splash1.jpg" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
-	<gap:splash src="images/splash2.jpg" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
-	<gap:splash src="images/splash3.jpg" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 -->
-	<gap:splash src="images/splash4.jpg" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 -->
+<gap:splash src="images/splash.jpg" /> <!-- default 320x480 pixels -->
+<gap:splash src="images/splash1.jpg" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
+<gap:splash src="images/splash2.jpg" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
+<gap:splash src="images/splash3.jpg" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 -->
+<gap:splash src="images/splash4.jpg" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 -->
 
 	
 
