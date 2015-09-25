@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.ufu.xq"
+        id        = "com.ufu.face"
         versionCode="1" 
         version   = "1.0.0">
 		
@@ -20,7 +20,7 @@
     </author>
 	
 	<preference name="stay-in-webview" value="true" /> 
-	<preference name='phonegap-version' value='cli-3.7.0' />
+	
 
 	 <!-- Core plugins -->
 	<gap:plugin name="org.apache.cordova.battery-status" />
@@ -36,7 +36,8 @@
 	<gap:plugin name="org.apache.cordova.file-transfer" />
 	<gap:plugin name="org.apache.cordova.geolocation" />
 	<gap:plugin name="org.apache.cordova.globalization" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.InAppBrowser" />
+
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
