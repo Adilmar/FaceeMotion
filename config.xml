@@ -20,6 +20,7 @@
     </author>
 	
 	<preference name="stay-in-webview" value="false" /> 
+	<access origin="*" browserOnly="true"/> 
 	<preference name="phonegap-version" value="3.7.0" />
 
 	 <!-- Core plugins -->
