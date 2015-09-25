@@ -1,13 +1,29 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Xq 2015</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>Test application</title>
 </head>
+<body>
+  <a href="#" onclick="openUrl('http://www.google.com/'); return false;">Link test 1</a>
+  <a href="#" onclick="window.open('http://www.google.com/', '_system', 'location=yes'); return false;">Test link 2</a>
 
-<body style="margin:0px;padding:0px;overflow:hidden">
+  <script src="phonegap.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript">
+    function openUrl(url) {
+      alert("open url: " + url);
+      window.open(url, '_blank', 'location=yes');
+    }
 
-<a onclick="navigator.app.loadUrl('https://google.com/', { openExternal:true });">Link</a>
-
-
-</body></html>
+    function onDeviceReady() {
+      alert('device ready!');
+    }
+    $(function() {
+        document.addEventListener("deviceready", onDeviceReady, true);
+    });
+  </script>
+</body>
+</html>
