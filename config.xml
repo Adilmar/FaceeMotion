@@ -5,23 +5,14 @@
         versionCode="1" 
         version   = "1.0.0">
 		
-		<access origin="*" />
-		
-		feature name="InAppBrowser">
-  <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
-</feature>
-<feature name="InAppBrowser">
-    <param name="ios-package" value="CDVInAppBrowser" />
-</feature>
-		
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Face eMotion</name>
+    <name>xxxxx</name>
 	
 
     <description>
-      Aplicativo Reconhecimento Emocional 
+      Aplicativo Xquestion 
     </description>
 
     <author href="https://facebook.com/adilmarcoelho" email="adilmarcoelho@hotmail.com">
@@ -29,14 +20,7 @@
     </author>
 	
 	<preference name="stay-in-webview" value="true" /> 
-	
-	
-	<feature name="InAppBrowser">
-  <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
-</feature>
-<feature name="InAppBrowser">
-    <param name="ios-package" value="CDVInAppBrowser" />
-</feature>
+	<preference name="phonegap-version" value="3.7.0" />
 
 	 <!-- Core plugins -->
 	<gap:plugin name="org.apache.cordova.battery-status" />
@@ -52,7 +36,7 @@
 	<gap:plugin name="org.apache.cordova.file-transfer" />
 	<gap:plugin name="org.apache.cordova.geolocation" />
 	<gap:plugin name="org.apache.cordova.globalization" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.2.4" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
