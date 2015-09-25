@@ -21,7 +21,7 @@
 	
 	<preference name="stay-in-webview" value="false" /> 
 	<access origin="*" browserOnly="true"/> 
-	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="phonegap-version" value="2.7.0" />
 
 	 <!-- Core plugins -->
 	<gap:plugin name="org.apache.cordova.battery-status" />
