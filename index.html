@@ -1,29 +1,24 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <title>Test application</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/face.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-  <a href="#" onclick="openUrl('http://inteligenciaartificial.facom.ufu.br/face-mobile'); return false;">Link test 1</a>
-  <a href="#" onclick="window.open('https://www.google.com', '_system');">Test link 2</a>
-
-  <script src="phonegap.js"></script>
-  <script src="cordova.js"></script>
-  <script src="js/jquery-1.9.1.js"></script>
-  <script type="text/javascript">
-    function openUrl(url) {
-      alert("open url: " + url);
-      window.open(url, '_blank', 'location=yes');
-    }
-
-    function onDeviceReady() {
-      alert('device ready!');
-    }
-    $(function() {
-        document.addEventListener("deviceready", onDeviceReady, true);
-    });
-  </script>
+	<div data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>It Worked!</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+		
+		<a href="http://inteligenciaartificial.facom.ufu.br/face-mobile" data-role="button" target="_new">Conectar</a>
+			
+		</div>
+	</div>
 </body>
 </html>
