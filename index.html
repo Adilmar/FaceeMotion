@@ -1,10 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Face eMotion</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facial eMotion</title>
+	<link rel="stylesheet" href="themes/face.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="cordova.js"></script>
+	<script src="user.js"></script>
+	
+	<script>
+function newDoc() {
+    window.open('http://google.com', '_blank');
+}
+</script>
+	
+	
 </head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<center><img src="images/logo.png" style="max-width:100%;height:auto;"/><br><h2></h2></center>
+		</div>
+		<div data-role="content" data-theme="c">
+		
+		
+				
+<div data-role="collapsible-set">
 
-<body style="margin:0px;padding:0px;overflow:hidden">
-    <iframe src="http://inteligenciaartificial.facom.ufu.br/face-mobile/" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
-</body></html>
+	<div data-role="collapsible" data-collapsed="false">
+	<h3>Termo de Consentimento</h3>
+	<p align="justify">Prezado estudante, estaremos fazendo uma pesquisa, no sentido de tentar identificar as suas emoções nos momentos em que você utiliza essa plataforma de aprendizagem virtual. O objetivo da pesquisa é buscar contribuir futuramente com instrumentos de auxílio à aprendizagem, com base nos registros dessas emoções. Assim, você deverá aceitar que o sistema de captura de imagem registre suas expressões faciais. Nosso projeto armazena algumas imagens de suas expressões faciais para isso é necessário que você entre com seu nome abaixo e aceite este termo, clique aqui para ver o andamento do registro da pesquisa junto ao conselho de etica, obrigado pela sua colaboração! Confira aqui o status da pesquisa. </p>
+	<br>
+	Estou de acordo com o termo acima<br>
+	<input type="checkbox" name="vehicle" value="Bike"/>
+	<br>
+	<b>Entre com seu nome completo</b>
+	<input type="text" name="nome" required="true" id="nome">
+	</div>
+	
+	
+</div>
+	
+		
+		
+		
+		<a href="#"  data-role="button" onclick="window.open('http://inteligenciaartificial.facom.ufu.br/face-mobile/bin/', '_system', 'location=yes');">Conectar</a>
+		
+		<br>
+			
+		</div>
+	</div>
+</body>
+</html>
